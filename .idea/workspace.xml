@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="417c27d5-e120-41a9-99e5-f689a614e497" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/modulelast/display.tpl" afterPath="$PROJECT_DIR$/modules/modulelast/display.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/modules/modulelast/display.tpl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -350,12 +350,12 @@
       <workItem from="1504699636894" duration="4246000" />
       <workItem from="1504761059820" duration="11557000" />
       <workItem from="1504847932038" duration="20036000" />
-      <workItem from="1504934615557" duration="1365000" />
+      <workItem from="1504934615557" duration="1376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92978000" />
+    <option name="totallyTimeSpent" value="92989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1604" height="876" extended-state="0" />
@@ -452,6 +452,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="150" column="14" lean-forward="false" selection-start-line="150" selection-start-column="14" selection-end-line="150" selection-end-column="14" />
+          <folding>
+            <marker date="1504362044633" expanded="true" signature="9332:9579" ph="SELECT m.`id... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="11612:11726" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="13794:13871" ph="INSERT INTO `${_DB_PREFIX_}authorization_role`... " />
+            <marker date="1504362044633" expanded="true" signature="13946:14387" ph="INSERT INTO `${_DB_PREFIX_}module_access`... " />
+            <marker date="1504362044633" expanded="true" signature="14051:14373" ph="SELECT id_pr... ${_DB_PREFIX_}" />
+            <marker date="1504362044633" expanded="true" signature="24816:24887" ph="SELECT `id_h... ${_DB_PREFIX_}hook_module" />
+            <marker date="1504362044633" expanded="true" signature="25292:25367" ph="SELECT id_me... ${_DB_PREFIX_}meta" />
+            <marker date="1504362044633" expanded="true" signature="25449:25502" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="25561:25609" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="25814:25951" ph="SELECT `id_a... ${_DB_PREFIX_}authorization_role" />
+            <marker date="1504362044633" expanded="true" signature="26091:26166" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="26283:26363" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="26618:26674" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="28026:28113" ph="SELECT `id_s... ${_DB_PREFIX_}module_shop" />
+            <marker date="1504362044633" expanded="true" signature="31891:31971" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="32885:33051" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="33111:33215" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="34985:35104" ph="DELETE FROM " />
+            <marker date="1504362044633" expanded="true" signature="41017:41072" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="44282:44572" ph="SELECT m.nam... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="54730:55091" ph="SELECT m.id_... ${_DB_PREFIX_}" />
+            <marker date="1504362044633" expanded="true" signature="54784:54911" ph="SELECT COUNT... ${_DB_PREFIX_}" />
+            <marker date="1504362044633" expanded="true" signature="66001:66100" ph="SELECT * FRO... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="67254:67295" ph="SELECT m.* F... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="76404:76481" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
+            <marker date="1504362044633" expanded="true" signature="76653:78032" ph="SELECT DISTI... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="79181:79423" ph="SELECT hm.`i... ${_DB_PREFIX_}hook_module" />
+            <marker date="1504362044633" expanded="true" signature="81164:81453" ph="SELECT `id_m... ${_DB_PREFIX_}hook_module" />
+            <marker date="1504362044633" expanded="true" signature="82294:82435" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="82348:82435" ph="..." />
+            <marker date="1504362044633" expanded="false" signature="82420:82427" ph="×" />
+            <marker date="1504362044633" expanded="true" signature="83044:83188" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="83101:83188" ph="..." />
+            <marker date="1504362044633" expanded="false" signature="83173:83180" ph="×" />
+            <marker date="1504362044633" expanded="true" signature="83666:83881" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="83741:83866" ph="..." />
+            <marker date="1504362044633" expanded="false" signature="83812:83819" ph="×" />
+            <marker date="1504362044633" expanded="true" signature="84325:84463" ph="SELECT * FRO... ${_DB_PREFIX_}hook_module_exceptions" />
+            <marker date="1504362044633" expanded="true" signature="87132:87386" ph="SELECT id_mo... ${_DB_PREFIX_}module_shop" />
+            <marker date="1504362044633" expanded="true" signature="87710:87819" ph="SELECT `id_m... ${_DB_PREFIX_}module_shop" />
+            <marker date="1504362044633" expanded="true" signature="88231:88444" ph="SELECT COUNT... ${_DB_PREFIX_}hook_module" />
+            <marker date="1504362044633" expanded="true" signature="98289:99289" ph="..." />
+            <marker date="1504362044633" expanded="true" signature="100704:101215" ph="SELECT `slug... ${_DB_PREFIX_}authorization_role" />
+            <marker date="1504362044633" expanded="true" signature="101730:102079" ph="SELECT `slug... ${_DB_PREFIX_}authorization_role" />
+            <marker date="1504362044633" expanded="true" signature="104528:104707" ph="SELECT m.`id... ${_DB_PREFIX_}module_group" />
+            <marker date="1504362044633" expanded="true" signature="105060:105140" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
+            <marker date="1504362044633" expanded="true" signature="106656:106845" ph="SELECT `posi... ${_DB_PREFIX_}hook_module" />
+            <marker date="1504362044633" expanded="true" signature="108088:108150" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -519,14 +569,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/moduledemo/form.tpl" />
-    <entry file="file://$PROJECT_DIR$/modules/modulelast/modulelast.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/javascript.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -709,10 +751,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/modulelast/modulelast.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="61" column="24" lean-forward="false" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/modulelast/display.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding />
         </state>
       </provider>
