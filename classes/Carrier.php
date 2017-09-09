@@ -115,6 +115,7 @@ class CarrierCore extends ObjectModel
     /**
      * @see ObjectModel::$definition
      */
+
     public static $definition = array(
         'table' => 'carrier',
         'primary' => 'id_carrier',

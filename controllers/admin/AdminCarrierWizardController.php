@@ -76,6 +76,9 @@ class AdminCarrierWizardControllerCore extends AdminController
                     'title' => $this->trans('Shipping locations and costs', array(), 'Admin.Shipping.Feature'),
                 ),
                 array(
+                    'title' => $this->trans('Ըստ փոստային ինդեքսի', array(), 'Admin.Shipping.Feature'),
+                ),
+                array(
                     'title' => $this->trans('Size, weight, and group access', array(), 'Admin.Shipping.Feature'),
                 ),
                 array(
@@ -122,8 +125,9 @@ class AdminCarrierWizardControllerCore extends AdminController
                 'contents' => array(
                     0 => $this->renderStepOne($carrier),
                     1 => $this->renderStepThree($carrier),
-                    2 => $this->renderStepFour($carrier),
-                    3 => $this->renderStepFive($carrier),
+                    2 => $this->renderStepSix($carrier),
+                    3 => $this->renderStepFour($carrier),
+                    4 => $this->renderStepFive($carrier),
                 )
             ),
             'labels' => array(
@@ -294,6 +298,7 @@ class AdminCarrierWizardControllerCore extends AdminController
                             )
                         ),
                     ),
+
                     'shipping_method' => array(
                         'type' => 'radio',
                         'label' => $this->trans('Billing', array(), 'Admin.Shipping.Feature'),
@@ -372,6 +377,39 @@ class AdminCarrierWizardControllerCore extends AdminController
         $this->getTplRangesVarsAndValues($carrier, $tpl_vars, $fields_value);
         return $this->renderGenericForm(array('form' => $this->fields_form), $fields_value, $tpl_vars);
     }
+
+    public function renderStepSix($carrier)
+        {
+            $this->fields_form=array(
+              'form'=>array(
+                  'id_form'=>'ship_by_postalcode',
+                  'input'=>array(
+                      array(
+                          'type'=>'text',
+                          'label' => $this->trans('Առաջին փոստային ինդեքս', array(), 'Admin.Shipping.Feature'),
+                          'name'=>'first_postalcode',
+                          'required'=>true,
+                      ),
+                      array(
+                          'type'=>'text',
+                          'label' => $this->trans('Երկրորդ փոստային ինդեքս', array(), 'Admin.Shipping.Feature'),
+                          'name'=>'second_postalcode',
+                          'required'=>true
+                      ),
+                      array(
+                          'type'=>'text',
+                          'label' => $this->trans('Առաքման վճար', array(), 'Admin.Shipping.Feature'),
+                          'name'=>'shipping_fee',
+                          'required'=>true
+                      ),
+                  ))
+            );
+
+            $fields_value = $this->getStepSixFieldsValues($carrier);
+
+            return $this->renderGenericForm(array('form' => $this->fields_form), $fields_value);
+
+        }
 
     /**
      * @param Carrier $carrier
@@ -594,6 +632,15 @@ class AdminCarrierWizardControllerCore extends AdminController
             'group' => $this->getFieldValue($carrier, 'group'),
         );
     }
+    public function getStepSixFieldsValues($carrier)
+    {
+        return array(
+            'first_postalcode' => $this->getFieldValue($carrier, 'first_postalcode'),
+            'second_postalcode' => $this->getFieldValue($carrier, 'second_postalcode'),
+            'shipping_fee' => $this->getFieldValue($carrier, 'shipping_fee'),
+        );
+    }
+
 
     public function getStepFiveFieldsValues($carrier)
     {
