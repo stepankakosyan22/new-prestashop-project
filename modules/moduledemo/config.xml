@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>moduledemo</name>
+    <displayName><![CDATA[Module Demo]]></displayName>
+    <version><![CDATA[1.0]]></version>
+    <description><![CDATA[Admin can choose shipping fee by zip (postal) code of customer]]></description>
+    <author><![CDATA[Stepan Kakosyan]]></author>
+    <tab><![CDATA[front_office_feature]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

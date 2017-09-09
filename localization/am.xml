@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<localizationPack name="Armenia" version="1.0">
+	<currencies>
+		<currency name="Dram" iso_code="AMD" iso_code_num="374" sign="AMG" blank="1" conversion_rate="1.014237" format="2" decimals="1" />
+	</currencies>
+	<languages>
+		<language iso_code="hy" />
+	</languages>
+	<taxes>
+		<tax id="1" name="IVA AR 21%" rate="21" />
+		<tax id="2" name="IVA AR 10.5%" rate="10.5" />
+
+		<taxRulesGroup name="AR Standard rate (21%)">
+			<taxRule iso_code_country="ar" id_tax="1" />
+		</taxRulesGroup>
+
+		<taxRulesGroup name="AR Reduced rate (10.5%)">
+			<taxRule iso_code_country="ar" id_tax="2" />
+		</taxRulesGroup>
+	</taxes>
+	<units>
+		<unit type="weight" value="կգ" />
+		<unit type="volume" value="լ" />
+		<unit type="short_distance" value="սմ" />
+		<unit type="base_distance" value="մ" />
+		<unit type="long_distance" value="կմ" />
+	</units>
+</localizationPack>
