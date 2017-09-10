@@ -2,3 +2,6 @@
 *ERROR* 	v1.7.2.2	2017/09/10 - 08:22:12: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
 *ERROR* 	v1.7.2.2	2017/09/10 - 08:24:17: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
 *ERROR* 	v1.7.2.2	2017/09/10 - 08:32:16: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.2	2017/09/10 - 08:36:20: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.2	2017/09/10 - 08:36:33: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.2	2017/09/10 - 08:52:47: Link to database cannot be established:SQLSTATE[HY000] [1049] Unknown database 'sheol' at line 102 in file classes/db/DbPDO.php
