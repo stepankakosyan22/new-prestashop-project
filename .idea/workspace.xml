@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="417c27d5-e120-41a9-99e5-f689a614e497" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/logs/20170910_exception.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Prestashop.iml" afterPath="$PROJECT_DIR$/.idea/Prestashop.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/20170910_exception.log" afterPath="$PROJECT_DIR$/app/logs/20170910_exception.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/moduledemo/moduledemo.tpl" afterPath="$PROJECT_DIR$/modules/moduledemo/moduledemo.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +24,8 @@
       <file leaf-file-name="moduledemo.tpl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/moduledemo/moduledemo.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -295,12 +293,12 @@
       <workItem from="1504761059820" duration="11557000" />
       <workItem from="1504847932038" duration="20036000" />
       <workItem from="1504934615557" duration="11575000" />
-      <workItem from="1505024823138" duration="239000" />
+      <workItem from="1505024823138" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103427000" />
+    <option name="totallyTimeSpent" value="103564000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -655,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/moduledemo/moduledemo.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
